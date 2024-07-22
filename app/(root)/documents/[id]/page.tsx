@@ -9,12 +9,15 @@ const Documents = () => {
         <div className="flex w-fit items-center justify-center gap-2 ">
           <p className="document-title">Title</p>
         </div>
-        <SignedOut>
-          <SignInButton />
-        </SignedOut>
-        <SignedIn>
-          <UserButton />
-        </SignedIn>
+        <div className="flex justify-center gap-2 items-center">
+          <p className="document-title ">Share</p>
+          <SignedOut>
+            <SignInButton />
+          </SignedOut>
+          <SignedIn>
+            <UserButton />
+          </SignedIn>
+        </div>
       </Header>
       <Editor />
     </div>

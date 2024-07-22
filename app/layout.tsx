@@ -14,6 +14,9 @@ const fontSans = FontSans({
 export const metadata: Metadata = {
   title: "StarDocs",
   description: "StarDocs is a documentation site for Starship.",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
@@ -35,7 +38,6 @@ export default function RootLayout({
             fontSans.variable
           )}
         >
-        
           {children}
         </body>
       </html>
