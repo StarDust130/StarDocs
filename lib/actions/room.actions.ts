@@ -85,6 +85,8 @@ export const getDocuments = async (email: string) => {
   }
 };
 
+
+//! Update document access
 export const updateDocumentAccess = async ({
   roomId,
   email,
